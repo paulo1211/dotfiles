@@ -1,0 +1,29 @@
+{
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true
+    },
+    "docker.extension.enableComposeLanguageServer": false,
+    "python.analysis.typeCheckingMode": "strict",
+    "chat.viewSessions.orientation": "stacked",
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "workbench.experimental.modernUI": true,
+    "workbench.colorTheme": "Light+",
+    "claudeCode.preferredLocation": "panel",
+    "terminal.integrated.initialHint": false,
+    "aws.cloudformation.telemetry.enabled": true,
+    "chat.mcp.gallery.enabled": true,
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": true
+    },
+    "githubPullRequests.pullBranch": "never"
+}

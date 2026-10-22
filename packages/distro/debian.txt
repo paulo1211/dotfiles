@@ -1,0 +1,15 @@
+# Ferramentas adicionais presentes na máquina original
+ansible-lint
+apache2-utils
+ffmpeg
+flameshot
+flatpak
+gh
+lua5.3
+maven
+nmap
+obs-studio
+rclone
+traceroute
+vagrant
+whois

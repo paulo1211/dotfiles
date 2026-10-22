@@ -1,0 +1,15 @@
+# Runtimes e CLIs instalados pelo mise, iguais em qualquer distribuição.
+# O Maven vem da distribuição (packages/distro/).
+[tools]
+java = "temurin-21"
+node = "lts"
+go = "latest"
+uv = "latest"
+kubectl = "latest"
+helm = "latest"
+terraform = "latest"
+golangci-lint = "latest"
+aws-cli = "latest"
+act = "latest"
+eksctl = "latest"
+"npm:@bitwarden/cli" = "latest"

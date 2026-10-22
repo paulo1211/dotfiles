@@ -1,0 +1,3 @@
+# Copie para ~/.gitconfig.local e ajuste. Este arquivo não é versionado.
+[user]
+	email = seu-email@exemplo.com

@@ -1,0 +1,14 @@
+ansible-lint
+apache2-utils
+ffmpeg
+flameshot
+flatpak
+gh
+lua54
+maven
+nmap
+obs-studio
+rclone
+traceroute
+vagrant
+whois

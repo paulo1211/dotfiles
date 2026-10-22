@@ -1,0 +1,2 @@
+io.kinvolk.Headlamp
+io.podman_desktop.PodmanDesktop

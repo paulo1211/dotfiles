@@ -1,0 +1,13 @@
+# ~/.profile - gerenciado por ~/dotfiles
+
+if [ -n "${BASH_VERSION:-}" ] && [ -f "$HOME/.bashrc" ]; then
+  . "$HOME/.bashrc"
+fi
+
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
+# Shims do mise para sessões não interativas; o bashrc ativa o mise completo.
+[ -d "$HOME/.local/share/mise/shims" ] && PATH="$HOME/.local/share/mise/shims:$PATH"
+export PATH
+
+[ -r "$HOME/.profile.local" ] && . "$HOME/.profile.local"

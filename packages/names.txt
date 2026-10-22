@@ -1,0 +1,10 @@
+# Nome genérico usado em common.txt e o nome do pacote em cada família.
+# Vários pacotes são separados por vírgula; "-" significa que não há pacote.
+# Nomes ausentes desta tabela são usados sem alteração.
+#
+# genérico    debian            fedora              arch         opensuse
+build-tools   build-essential   gcc,gcc-c++,make    base-devel   gcc,gcc-c++,make
+fd            fd-find           fd-find             fd           fd
+pip           python3-pip       python3-pip         python-pip   python3-pip
+shellcheck    shellcheck        ShellCheck          shellcheck   ShellCheck
+xz            xz-utils          xz                  xz           xz

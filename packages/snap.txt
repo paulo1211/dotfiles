@@ -1,0 +1,15 @@
+# pacote [classic]
+beekeeper-studio
+brave
+cherrytree
+code classic
+firefox
+kcalc
+kdenlive
+microk8s classic
+multipass
+ora
+pdfarranger
+superproductivity
+thunderbird
+workshop

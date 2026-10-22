@@ -1,0 +1,146 @@
+# =============================================================================
+# Camada 1: lista de permissão na raiz.
+# Só estas pastas e arquivos podem ser versionados; qualquer outra coisa
+# copiada para a raiz do repositório (ex. ~/.aws inteiro) é ignorada.
+# =============================================================================
+/*
+!/.gitignore
+!/README.md
+!/install.sh
+!/config/
+!/home/
+!/packages/
+!/scripts/
+!/tests/
+
+# =============================================================================
+# Camada 2: padrões bloqueados em qualquer pasta.
+# =============================================================================
+
+# Chaves SSH, GPG e certificados
+**/.ssh/
+**/ssh/
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+*_rsa
+*_rsa.pub
+*_ed25519
+*_ed25519.pub
+known_hosts*
+authorized_keys*
+**/.gnupg/
+**/gnupg/
+*.gpg
+*.asc
+*.pgp
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.ppk
+*.crt
+*.cer
+*.der
+*.csr
+
+# Nuvem, Kubernetes, contêineres e acesso remoto
+**/.aws/
+**/aws/credentials*
+**/credentials*
+**/.kube/
+**/kube/config*
+kubeconfig*
+**/.docker/
+**/docker/config.json
+**/.tsh/
+**/tsh/
+**/.azure/
+**/gcloud/
+*.ovpn
+**/system-connections/
+
+# Terraform, Vault e Ansible
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+**/.terraform/
+.terraformrc
+terraform.rc
+.vault-token
+.vault_pass*
+*vault-password*
+
+# Tokens de CLIs e registries
+.netrc
+_netrc
+.npmrc
+.yarnrc.yml
+.pypirc
+.git-credentials
+**/gh/hosts.yml
+**/hub
+.claude.json
+**/.codex/
+**/codex/auth.json
+auth.json
+**/twg/auth*.conf
+pplx-receipt.json
+**/Bitwarden CLI/
+*.session
+
+# Cofres, chaveiros e bancos locais
+**/keyrings/
+*.kdbx
+*.keychain*
+**/.password-store/
+*.sqlite
+*.sqlite3
+*.db
+
+# Variáveis de ambiente e arquivos locais por máquina
+.env
+.env.*
+!.env.example
+*.local
+!*.local.example
+
+# Nomes que sugerem segredo (as exceções abaixo são arquivos do próprio repo)
+*secret*
+*Secret*
+*SECRET*
+*token*
+*Token*
+*password*
+*passwd*
+
+# Históricos de shell e de ferramentas
+*_history
+.bash_history*
+history.jsonl
+
+# Backups, logs e saídas de teste
+.dotfiles-backup/
+tests/logs/
+*.log
+*.bak
+*.orig
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# =============================================================================
+# Exceções: arquivos do próprio repositório com nomes parecidos com segredos.
+# Ficam no final porque a última regra que casa é a que vale.
+# secrets/ guarda apenas o manifesto (nomes e caminhos, sem conteúdo).
+# =============================================================================
+!/secrets/
+/secrets/*
+!/secrets/manifest.txt
+!/scripts/secrets.sh

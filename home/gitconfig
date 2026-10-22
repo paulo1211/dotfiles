@@ -1,0 +1,16 @@
+[user]
+	name = Paulo Ricardo
+[include]
+	path = ~/.gitconfig.local
+[core]
+	excludesFile = ~/.config/git/ignore
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[credential "https://github.com"]
+	helper =
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !gh auth git-credential
