@@ -1,0 +1,198 @@
+# Softwares instalados em paulo-Dell-G15-5530 — Ubuntu 26.04.1 LTS — gerado em 2026-10-24
+# Como reinstalar cada grupo: README.md e packages/external-tools.md
+
+## APT (instalados manualmente) — sudo apt install <pacote>
+ansible-lint                     26.1.1-2
+apache2-utils                    2.4.66-2ubuntu2.6
+bubblewrap                       0.11.1-1ubuntu0.3
+build-essential                  12.12ubuntu2.26.04.2
+ca-certificates                  20260816ubuntu0.26.04.1
+chatgpt                          26.1013.40934
+claude-desktop                   3.6556.2
+containerd.io                    2.4.2-2~ubuntu.26.04~resolute
+curl                             8.18.0-1ubuntu2.8
+docker-buildx-plugin             0.38.0-1~ubuntu.26.04~resolute
+docker-ce                        5:29.9.1-1~ubuntu.26.04~resolute
+docker-ce-cli                    5:29.9.1-1~ubuntu.26.04~resolute
+docker-compose-plugin            5.6.0-1~ubuntu.26.04~resolute
+duplicati                        2.3.0.4
+ffmpeg                           7:8.0.1-3ubuntu2
+flameshot                        13.3.0+git20251204-1
+flatpak                          1.16.6-1
+forticlient                      7.4.3.5411
+gh                               2.102.0
+git                              1:2.53.0-1ubuntu1.1
+gnome-shell-extension-manager    0.6.5-1
+gnome-software-plugin-flatpak    50.0-1
+hey                              0.1.4+ds-2
+htop                             3.4.1-5build2
+jq                               1.8.1-4ubuntu2
+lua5.3                           5.3.6-3
+maven                            3.9.12-1
+microsoft-edge-stable            155.0.4283.62-1
+nmap                             7.98+dfsg-1
+obs-studio                       32.1.0-0ubuntu3
+obsidian                         1.12.7
+openjdk-21-jdk                   21.0.12.1+1-1~26.04.4
+python3-pip                      25.1.1+dfsg-1ubuntu2
+python3.14-venv                  3.14.4-1ubuntu0.2
+rclone                           1.60.1+dfsg-4ubuntu3.2
+traceroute                       1:2.1.6-1build1
+vagrant                          2.4.9-1
+vim                              2:9.1.2141-1ubuntu4.9
+virtualbox-7.2                   7.2.8-173730~Ubuntu~resolute
+whois                            5.6.6
+zennotes                         2.61.0
+
+## APT — repositórios de terceiros (/etc/apt/sources.list.d)
+chatgpt.sources
+claude-desktop.list
+docker.sources
+github-cli.list
+hashicorp.list
+microsoft-edge.sources
+
+## Drivers / sistema (referência)
+linux-generic-hwe-24.04
+nvidia-driver-595-open
+
+## Snap — sudo snap install <nome> [--classic]
+aws-cli                  2.35.21              classic
+beekeeper-studio         6.1.6                -
+brave                    1.98.60              -
+cherrytree               1.7.2                -
+code                     e6468682             classic
+firefox                  158.0-2              -
+go                       1.27.3               classic
+golangci-lint            2.15.0               classic
+helm                     4.3.1                classic
+kcalc                    26.04.3              -
+kdenlive                 26.04.3              -
+kubectl                  1.35.9               classic
+microk8s                 v1.36.2              classic
+multipass                1.17.0               -
+ora                      5.0.9                -
+pdfarranger              1.14.0               -
+screenshot-tool          2.2.1                -
+superproductivity        19.3.0               -
+terraform                1.16.7               classic
+thunderbird              158.0-1              -
+workshop                 0.9.9-f8fdf0d        classic
+
+## Flatpak — flatpak install flathub <id>
+io.kinvolk.Headlamp	0.46.0
+io.podman_desktop.PodmanDesktop	1.30.5
+
+## Homebrew — brew install <nome>
+act
+aws/tap/eksctl
+
+## npm global — npm i -g <pacote>
+@google/gemini-cli@0.52.0
+
+
+## Go (~/go/bin) — go install <módulo>@latest
+gopls
+
+## VS Code — code --install-extension <id>
+amazonwebservices.aws-toolkit-vscode
+anthropic.claude-code
+batisteo.vscode-django
+bmarkovic.haproxy
+davidanson.vscode-markdownlint
+docker.docker
+donjayamanne.githistory
+eamodio.gitlens
+fastapilabs.fastapi-vscode
+github.vscode-github-actions
+github.vscode-pull-request-github
+golang.go
+google.gemini-cli-vscode-ide-companion
+hangxingliu.vscode-systemd-support
+hashicorp.hcl
+hashicorp.terraform
+kennylong.kubernetes-yaml-formatter
+mechatroner.rainbow-csv
+mermaidchart.vscode-mermaid-chart
+mhutchie.git-graph
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.autopep8
+ms-python.debugpy
+ms-python.flake8
+ms-python.isort
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-vscode-remote.remote-containers
+postman.postman-for-vscode
+redhat.ansible
+redhat.java
+redhat.vscode-microprofile
+redhat.vscode-quarkus
+redhat.vscode-yaml
+rust-lang.rust-analyzer
+sumneko.lua
+timonwong.shellcheck
+vintharas.learn-vim
+vscjava.vscode-java-debug
+wholroyd.jinja
+yandeu.five-server
+
+## Binários em ~/.local/bin
+agy
+akit
+awx
+claude
+codex
+logseq
+pplx
+twg
+uv
+uvx
+zed
+
+## Binários em /usr/local/bin (Teleport, SAM CLI)
+fdpass-teleport
+sam
+tbot
+tctl
+teleport
+teleport-update
+tsh
+tsh: Teleport v7.3.23 git:v7.3.23-0-g87b5672c3 go1.16.14
+
+## Instalados em /opt
+Obsidian
+ZenNotes
+cni
+containerd
+forticlient
+microsoft
+vagrant
+
+## AppImages (~/Downloads)
+affine-0.26.3-stable-linux-x64.appimage
+affine-0.27.0-stable-linux-x64.appimage
+GitHub-Copilot-linux-x64.AppImage
+Heptabase-1.98.3.AppImage
+LM-Studio-0.4.16-2-x64.AppImage
+Logseq-linux-x86_64-2.0.1.AppImage
+Logseq-linux-x86_64-2.0.2.AppImage
+Tolaria_2026.7.14_amd64.AppImage
+
+## Runtimes / SDKs
+java:   openjdk version "21.0.12.1" 2026-08-18
+node:   v26.2.0 (nvm: v26.2.0 )
+python: Python 3.14.4
+go:     go version go1.27.3 linux/amd64
+dotnet: 
+docker: Docker version 29.9.1, build dfc520d
+JDKs (~/.jdks): ms-21.0.11 
+
+## JetBrains (Toolbox)
+intellij-idea
+rustrover
+
+## Extensões GNOME (usuário)

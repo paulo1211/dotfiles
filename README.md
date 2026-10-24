@@ -57,6 +57,7 @@ tests/distros.sh archlinux:latest fedora:latest
 - `packages/distro/`: equivalências das ferramentas atuais para cada família Linux.
 - Manifestos de Snap, Flatpak, npm, Go e ferramentas Python.
 - `packages/external-tools.md`: catálogo dos softwares instalados fora da automação (CLIs de DevOps, Flatpaks, IDEs, apps corporativos e logins pós-instalação).
+- `inventario/softwares-instalados.txt`: retrato de tudo que estava instalado na máquina original (APT, Snap, Flatpak, brew, npm, VS Code, AppImages, /opt etc.).
 - `scripts/capture.sh`: atualiza no repositório somente os arquivos permitidos.
 - `scripts/doctor.sh`: mostra o que ainda falta após uma migração.
 

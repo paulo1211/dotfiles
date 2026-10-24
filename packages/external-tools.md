@@ -79,6 +79,10 @@ flatpak install --user -y flathub \
 | **ChatGPT** | repositório do fornecedor (o mesmo de `/etc/apt/sources.list.d/chatgpt`) | |
 | **ZenNotes** | instalador do fornecedor | Configuração em `~/.config/zennotes` |
 | **LM Studio** | AppImage em <https://lmstudio.ai> | Modelos podem ser baixados de novo |
+| **Heptabase** | AppImage em <https://heptabase.com> | |
+| **AFFiNE** | AppImage em <https://affine.pro/download> | |
+| **Tolaria** | AppImage do fornecedor | |
+| **GitHub Copilot (app desktop)** | AppImage do fornecedor | |
 | **Antigravity** (`agy`) | <https://antigravity.google> | |
 | **Perplexity** (`pplx`) | instalador do produto | |
 | **TWG** | distribuição corporativa | Timer de usuário `twg-upkeep` em `~/.config/systemd/user` |

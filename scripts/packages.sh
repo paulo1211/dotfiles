@@ -134,7 +134,10 @@ case "$distro_family" in
   debian) sudo apt-get update ;;
   fedora) [[ "$distro_id" != fedora ]] && enable_el_repositories ;;
   arch) sudo pacman -Syu --noconfirm ;;
-  opensuse) sudo zypper --non-interactive refresh ;;
+  # Um repositório quebrado (ex.: a mídia de instalação que ficou cadastrada)
+  # faz o refresh sair com erro mesmo com os demais atualizados.
+  opensuse) sudo zypper --non-interactive refresh \
+    || printf 'aviso: alguns repositórios não foram atualizados (veja "zypper repos")\n' >&2 ;;
 esac
 
 common=()
